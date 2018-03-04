@@ -8,15 +8,14 @@ import javax.swing.JOptionPane;
 public class TheRiddler {
 
 	public static void main(String[] args) {
-
-		// 1. Make a variable to hold the score
-		int score = 1;
-
-		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
+		int score = 0;
 		String answer1 = JOptionPane.showInputDialog(null, "What is greater than God, more evil than the devil, the poor have it, the rich need it, and if you eat it, you'll die?");
-
-		// 4. If they got the answer right, pop up "correct!" and increase the score by one
-
+		if (answer1.equals("nothing"));
+			score++;
+		String answer2 = JOptionPane.showInputDialog(null, "What can travel around the world while staying in a corner?");
+			if (answer2.equals("stamp"));
+				score++;
+		JOptionPane.showMessageDialog(null, "You are done with the Riddler test. Your score is " + score + "/2. Good job! Take your score to the Riddler Proctor, or remember your score. You can exit The Riddler Secure Testing!");
 		// 5. Otherwise, say "wrong" and tell them the answer
 
 		// 6. Add some more riddles
