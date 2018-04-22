@@ -9,8 +9,8 @@ public class TheRiddler {
 
 	public static void main(String[] args) {
 		int score = 0;
-		String answer1 = JOptionPane.showInputDialog(null, "What is greater than God, more evil than the devil, the poor have it, the rich need it, and if you eat it, you'll die?");
-		if (answer1.equals("nothing"));
+		String answer1 = JOptionPane.showInputDialog(null, "The first is the fourth, a dissapointing mark. You'll find it in parked, but not in park.");
+		if (answer1.equals("Dementors"));
 			score++;
 		String answer2 = JOptionPane.showInputDialog(null, "What can travel around the world while staying in a corner?");
 			if (answer2.equals("stamp"));
